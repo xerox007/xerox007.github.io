@@ -22,6 +22,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 twitter_username: bidhansthapit
 github_username: xerox007
 minimal_mistakes_skin: default
+logo: "/assets/images/logo.png"
 search: true
 
 # Build settings
