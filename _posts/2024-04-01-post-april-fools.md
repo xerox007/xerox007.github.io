@@ -1,7 +1,7 @@
 ---
-title: "April Fools Day | Starting My Journal "
+title: "April Fools Day / Starting My Journal "
 categories:
-  - Blog
+  - blog
 tags:
   - rant
 ---
