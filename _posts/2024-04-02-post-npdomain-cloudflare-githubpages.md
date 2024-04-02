@@ -1,6 +1,5 @@
 ---
 title: "Custom Domain .com.np with github pages using cloudflare dns "
-date: 20204-04-02
 categories:
   - blog
 tags:
