@@ -30,7 +30,7 @@ A Records
 185.199.111.153
 ```
 
-But, in the `.com.np` registration section, we can see that we cannot add IP Addresses and we must add the nameservers. As mentioned in the site, Ip addresses are strictly prohibited. So to solve this we will be using Cloudflare's DNS Server names in the `.com.np registration section` and in the cloudflare dns records, we will add those A and CNAME records.
+But, in the `.com.np` registration section, we can see that we cannot add IP Addresses and we must add the nameservers. As mentioned in the site, Ip addresses are strictly prohibited. So to solve this we will be using Cloudflare's DNS Server names in the `.com.np` registration section and in the cloudflare dns records, we will add those A and CNAME records.
 ![][comnp-img]
 
 ## Solution:
