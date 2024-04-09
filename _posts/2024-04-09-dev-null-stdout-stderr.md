@@ -1,5 +1,5 @@
 ---
-title: "/dev/null | stdout | stderr | redirections"
+title: "Using `/dev/null` with stdout and stderr to discard unecessary outputs and separating the stdout, stderr stream into independent files for debugging"
 categories:
   - blog
 tags:
