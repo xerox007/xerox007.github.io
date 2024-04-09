@@ -1,5 +1,5 @@
 ---
-title: "Using '/dev/null*' with stdout and stderr to discard unecessary outputs"
+title: "Using '/dev/null' with stdout and stderr to discard unecessary outputs"
 categories:
   - blog
 tags:
