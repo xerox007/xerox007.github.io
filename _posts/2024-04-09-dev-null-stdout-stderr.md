@@ -1,10 +1,11 @@
 ---
-title: "Using `/dev/null` with stdout and stderr to discard unecessary outputs and separating the stdout, stderr stream into independent files for debugging"
+title: "Using '/dev/null*' with stdout and stderr to discard unecessary outputs"
 categories:
   - blog
 tags:
   - linux
   - command-line
+  - iostreams
 ---
 
 This is a post regarding `/dev/null` known as the blackhole of linux where everything we sent to is discarded. So, we will be looking into how we can discard the unnecessary messages from `stdout` and `stderr` during command execution that clutter the terminal. Also, to separate the streams into independent files.
@@ -12,7 +13,7 @@ This is a post regarding `/dev/null` known as the blackhole of linux where every
 ## Prerequisites:
 
 - Basic linux knowledge
-- Different streams in linux i.e `stdin`, `stdout`, `stderr`
+- Different streams in linux i.e `stdout`, `stderr`
 - Redirection
 
 ## Explanation:
