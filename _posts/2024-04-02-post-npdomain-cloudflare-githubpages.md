@@ -39,7 +39,7 @@ Now, we have to create the `A and CNAME` records in the cloudfare's dns interfac
 
 ![][dns-interface-cloudfare-img]
 
-We can see that the root domain `<firstnamelastname>.com.np` is pointed to four different ip address of githubpages creating 4 different `A` records. Also, we can see a `CNAME` record with subdomain `www` being pointed to or aliased to root domain `<firstnamelastname>.com.np`.
+We can see that the root domain `<firstnamelastname>.com.np` is pointed to four different ip address of githubpages creating 4 different `A` records. Also, we can see a `CNAME` record with subdomain `www` being pointed to or aliased to github pages site `<githubusername>.github.io`.
 
 **Don't use the proxied option while creating the A records. Use DNS only. Also, keep the TTL values below 5 min for faster DNS propagation**
 
@@ -66,6 +66,6 @@ When the user hits `www.<firstname><lastname>.com.np` in the browser, the cloudf
 [theme-gen-link]: https://github.com/mmistakes/mm-github-pages-starter/generate
 [githubpages-custom-domain]: https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-a-subdomain
 [comnp-img]: /assets//images/npdomain-cloudflare-githubpages/np-interface.png
-[dns-interface-cloudfare-img]: /assets//images/npdomain-cloudflare-githubpages/dns-interface-cloudfare.png
+[dns-interface-cloudfare-img]: /assets//images/npdomain-cloudflare-githubpages/dns-interface-cloudflare.png
 [githubpages-settings-img]: /assets//images/npdomain-cloudflare-githubpages/githubpages-settings-custom-domain.png
 [secure-connection-img]: /assets//images/npdomain-cloudflare-githubpages/secure-connection.png
